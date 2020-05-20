@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuctionActivity">
+
+    <TextView
+        android:id="@+id/a_auction_tv_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/a_auction_tv_new_auction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/a_auction_btn_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/a_auction_btn_new_auction"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a_auction_tv_new" />
+
+    <TextView
+        android:id="@+id/a_auction_tv_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/a_auction_tv_auctions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a_auction_btn_new" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/a_auction_rv_next"
+        android:layout_width="285dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a_auction_tv_next" />
+
+    <Button
+        android:id="@+id/a_auction_btn_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/a_auction_tv_live"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a_auction_rv_next" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

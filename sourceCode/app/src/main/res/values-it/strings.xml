@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activities -->
+    <string name="app_name">Asta Fantacalcio</string>
+    <string name="a_name_players_list">Lista dei calciatori</string>
+    <string name="a_name_team">La tua squadra</string>
+    <string name="a_name_registration">Registrazione</string>
+    <string name="a_name_live_auction">Asta Live</string>
+    <string name="a_name_auction">Area Asta</string>
+    <string name="a_name_focus_view">Focus Calciatore</string>
+    <string name="a_name_home">Home</string>
+    <string name="a_name_profile">Profilo</string>
+    <string name="a_name_settings">Impostazioni</string>
+
+    <!-- Strings related to registration -->
+    <string name="a_registration_t_user_already_exists">Esiste già un utente registrato con questo indirizzo email.</string>
+    <string name="a_registration_t_error_2">Errore durante la registrazione. 02</string>
+    <string name="a_registration_t_error_1">Errore durante la registrazione. 01</string>
+    <string name="a_registration_tv_name">Nome</string>
+    <string name="a_registration_et_name">Inserisci il tuo nome</string>
+    <string name="a_registration_tv_birthdate">Data di nascita</string>
+    <string name="a_registration_tv_phone">Numero di telefono</string>
+    <string name="a_registration_tv_email">Email</string>
+    <string name="a_registration_et_phone">Inserisci il tuo numero di telefono</string>
+    <string name="a_registration_et_birthdate">gg/mm/aaaa</string>
+    <string name="a_registration_btn_register">Registrati</string>
+    <string name="a_registration_tv_password">Password</string>
+    <string name="a_registration_et_password">Inserisci una password</string>
+    <string name="a_registration_et_email">Inserisci la tua email</string>
+
+    <!-- Strings related to team -->
+    <string name="rv_adapter_team_a_title">Rimuovi giocatore</string>
+    <string name="rv_adapter_team_a_question">Vuoi rimuovere il giocatore dalla tua squadra?</string>
+    <string name="rv_adapter_team_a_toast_deleted">Rimosso</string>
+    <string name="rv_adapter_team_a_yes">Sì</string>
+    <string name="rv_adapter_team_a_no">No</string>
+    <string name="row_cv_team_logo">Team logo</string>
+
+    <!-- Strings related to profile -->
+    <string name="a_profile_t_camera">Il tuo dispositivo non ha una fotocamera compatibile!</string>
+    <string name="a_profile_t_data_update">Adesso puoi modificare i tuoi dati. Ricardati di salvare!</string>
+    <string name="a_profile_t_data_saved">Dati aggiornati correttamente</string>
+    <string name="a_profile_t_error_take_image">Errore durante il salvataggio della foto</string>
+    <string name="a_profile_t_error_set_image">Impossibile settare la foto, provo di nuovo</string>
+    <string name="a_profile_iv_profile_picture">Foto profilo</string>
+    <string name="a_profile_tv_name">Nome</string>
+    <string name="a_profile_et_insert_your_name">Inserisci il tuo nome</string>
+    <string name="a_profile_tv_birthdate">Data di nascita</string>
+    <string name="a_profile_tv_phone_number">Numero di telefono</string>
+    <string name="a_profile_tv_email">Email</string>
+    <string name="a_profile_et_insert_your_email">Inserisci la tua email</string>
+    <string name="a_profile_et_birthdate">gg/mm/aaaa</string>
+    <string name="a_profile_et_phone">Inserisci il tuo numero di telefono</string>
+    <string name="a_profile_btn_save">Salva</string>
+    <string name="a_profile_btn_update_data">Aggiorna dati</string>
+    <string name="a_profile_a_permissions">Dovresti accettare tutti i permessi</string>
+    <string name="a_profile_a_cancel">Cancella</string>
+    <string name="a_profile_a_ok">OK</string>
+
+    <!-- Strings related to players' list -->
+    <string name="row_cv_players_list_logo">Logo squadra</string>
+    <string name="row_cv_players_list_photo">Foto calciatore</string>
+    <string name="a_players_list_tv_filter">Filter:</string>
+    <string name="a_players_list_cb_m">C</string>
+    <string name="a_players_list_cb_g">P</string>
+    <string name="a_players_list_cb_f">A</string>
+    <string name="a_players_list_cb_d">D</string>
+
+    <!-- Strings related to login -->
+    <string name="a_login_btn_login">Login</string>
+    <string name="a_login_tv_email">Inserisci la tua email:</string>
+    <string name="a_login_tv_password">Inserisci la tua password:</string>
+    <string name="a_login_et_email">Email</string>
+    <string name="a_login_et_password">Password</string>
+    <string name="a_login_btn_registration">Registrazione</string>
+    <string name="a_login_cb_credentials">Ricorda credenziali</string>
+    <string name="a_login_t_invalid_credentials">Credenziali non valide, prova di nuovo o registrati!</string>
+
+    <!-- Strings related to home -->
+    <string name="a_home_a_logout_text">Sei sicuro di voler uscire?</string>
+    <string name="a_home_a_logout_title">Logout</string>
+    <string name="a_home_a_logout_yes">Si</string>
+    <string name="a_home_a_logout_no">No</string>
+    <string name="a_home_a_logout_done">Logout effettuato</string>
+    <string name="a_home_iv_picture">Immagine del profilo</string>
+    <string name="a_home_tv_welcome">Benvenuto</string>
+    <string name="a_home_tv_name" />
+
+    <!-- Strings related to focus view -->
+    <string name="a_focus_view_t_data">Impossibile caricare i dati</string>
+    <string name="a_focus_view_t_added">Aggiunto alla tua squadra!</string>
+    <string name="a_focus_view_t_removed">Rimosso dalla tua squadra!</string>
+    <string name="a_focus_view_iv_picture">Immagine calciatore</string>
+    <string name="a_focus_view_tv_name">Nome</string>
+    <string name="a_focus_view_tv_value_text">Valore</string>
+    <string name="a_focus_view_tv_value_number" />
+    <string name="a_focus_view_tv_statistics">Statistiche</string>
+    <string name="a_focus_view_tv_description" />
+    <string name="a_focus_view_iv_logo">Logo squadra</string>
+    <string name="a_focus_view_tv_role">Ruolo</string>
+    <string name="a_focus_view_t_server">Impossibile stabilire la connessione con il server</string>
+    <string name="a_focus_view_pb_message">Sto contattando il server…</string>
+
+    <!-- Strings related to auction -->
+    <string name="a_auction_n_reminder_text">Ricordati di settare la data per l\'asta!</string>
+    <string name="a_auction_n_reminder_title">Promemoria</string>
+    <string name="a_auction_tv_new_auction">Organizza una nuova asta</string>
+    <string name="a_auction_btn_new_auction">Organizza</string>
+    <string name="a_auction_tv_auctions">Aste disponibili</string>
+    <string name="a_auction_tv_live">Vai al live</string>
+
+    <string name="t_not_yet_implemented">Questa funzionalità non è ancora stata implementata</string>
+    <string name="permission_granted">Permesso ottenuto</string>
+    <string name="permission_denied">Permesso negato</string>
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".RegistrationActivity">
+
+
+        <TextView
+            android:id="@+id/a_registration_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/a_registration_tv_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/a_registration_et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/a_registration_et_name"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_name"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/a_registration_tv_birthdate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_password" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a_registration_tv_phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_birthdate" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a_registration_tv_email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_phone" />
+
+        <EditText
+            android:id="@+id/a_registration_et_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/a_registration_et_email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_email"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/a_registration_et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/a_registration_et_phone"
+            android:inputType="phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_phone"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/a_registration_et_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="@string/a_registration_et_birthdate"
+            android:inputType="date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_birthdate"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/a_registration_btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/a_registration_btn_register"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_email" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/a_registration_tv_password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_name" />
+
+        <EditText
+            android:id="@+id/a_registration_et_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/a_registration_et_password"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_password"
+            android:importantForAutofill="no" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

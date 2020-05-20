@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayersListActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/a_players_list_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/a_players_list_hd"
+        app:layout_constraintTop_toBottomOf="@+id/a_players_list_hd" />
+
+    <View
+        android:id="@+id/a_players_list_hd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/a_players_list_tv_description"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/a_players_list_tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/a_players_list_tv_filter"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/a_players_list_cb_filter_midfielder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/a_players_list_cb_m"
+        app:layout_constraintBottom_toTopOf="@+id/a_players_list_hd"
+        app:layout_constraintStart_toEndOf="@+id/a_players_list_cb_filter_defender"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/a_players_list_cb_filter_goalkeeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="5sp"
+        android:text="@string/a_players_list_cb_g"
+        app:layout_constraintBottom_toTopOf="@+id/a_players_list_hd"
+        app:layout_constraintStart_toEndOf="@+id/a_players_list_tv_description"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/a_players_list_cb_filter_forwarder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/a_players_list_cb_f"
+        app:layout_constraintBottom_toTopOf="@+id/a_players_list_hd"
+        app:layout_constraintStart_toEndOf="@+id/a_players_list_cb_filter_midfielder"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <CheckBox
+        android:id="@+id/a_players_list_cb_filter_defender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="@string/a_players_list_cb_d"
+        app:layout_constraintBottom_toTopOf="@+id/a_players_list_hd"
+        app:layout_constraintStart_toEndOf="@+id/a_players_list_cb_filter_goalkeeper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

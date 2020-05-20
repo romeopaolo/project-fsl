@@ -1,0 +1,114 @@
+<resources>
+    <!-- Activities -->
+    <string name="app_name">Fantasy Soccer Auction</string>
+    <string name="a_name_players_list">Players List</string>
+    <string name="a_name_team">Your Team</string>
+    <string name="a_name_registration">Registration</string>
+    <string name="a_name_live_auction">Live Auction</string>
+    <string name="a_name_auction">Auction Area</string>
+    <string name="a_name_focus_view">Focus View</string>
+    <string name="a_name_home">Home</string>
+    <string name="a_name_profile">Profile</string>
+    <string name="a_name_settings">Settings</string>
+
+    <!-- Strings related to registration -->
+    <string name="a_registration_t_user_already_exists">A user with the same email address already exists.</string>
+    <string name="a_registration_t_error_2">An error occurred during the registration. 02</string>
+    <string name="a_registration_t_error_1">An error occurred during the registration. 01</string>
+    <string name="a_registration_tv_name">Name</string>
+    <string name="a_registration_et_name">Insert your name</string>
+    <string name="a_registration_tv_birthdate">Birthdate</string>
+    <string name="a_registration_tv_phone">Phone number</string>
+    <string name="a_registration_tv_email">Email</string>
+    <string name="a_registration_et_phone">Insert your phone number</string>
+    <string name="a_registration_et_birthdate">dd/mm/yyyy</string>
+    <string name="a_registration_btn_register">Register</string>
+    <string name="a_registration_tv_password">Password</string>
+    <string name="a_registration_et_password">Insert a password</string>
+    <string name="a_registration_et_email">Insert your email</string>
+
+    <!-- Strings related to team -->
+    <string name="rv_adapter_team_a_title">Remove player</string>
+    <string name="rv_adapter_team_a_question">Do you want to remove the player from your team?</string>
+    <string name="rv_adapter_team_a_toast_deleted">Deleted</string>
+    <string name="rv_adapter_team_a_yes">Yes</string>
+    <string name="rv_adapter_team_a_no">No</string>
+    <string name="row_cv_team_logo">Team logo</string>
+
+    <!-- Strings related to profile -->
+    <string name="a_profile_t_camera">Your device does not have a suitable camera!</string>
+    <string name="a_profile_t_data_update">You can now modify your information. Remember to save it!</string>
+    <string name="a_profile_t_data_saved">Data has been updated correctly</string>
+    <string name="a_profile_t_error_take_image">Error while creating the file to store the image</string>
+    <string name="a_profile_t_error_set_image">Cannot set the photo, try again.</string>
+    <string name="a_profile_iv_profile_picture">Profile picture</string>
+    <string name="a_profile_tv_name">Name</string>
+    <string name="a_profile_et_insert_your_name">Insert your name</string>
+    <string name="a_profile_tv_birthdate">Birthdate</string>
+    <string name="a_profile_tv_phone_number">Phone number</string>
+    <string name="a_profile_tv_email">Email</string>
+    <string name="a_profile_et_insert_your_email">Insert your email</string>
+    <string name="a_profile_et_birthdate">dd/mm/yyyy</string>
+    <string name="a_profile_et_phone">Insert your phone number</string>
+    <string name="a_profile_btn_save">Save</string>
+    <string name="a_profile_btn_update_data">Update data</string>
+    <string name="permission_granted">Permission Granted</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="a_profile_a_permissions">You need to allow access permissions</string>
+
+    <!-- Strings related to login -->
+    <string name="a_login_btn_login">Login</string>
+    <string name="a_login_tv_email">Insert your email:</string>
+    <string name="a_login_tv_password">Insert your password:</string>
+    <string name="a_login_et_email">Email</string>
+    <string name="a_login_et_password">Password</string>
+    <string name="a_login_btn_registration">Registration</string>
+    <string name="a_login_cb_credentials">Remember credentials</string>
+    <string name="a_login_t_invalid_credentials">Invalid credentials, try again or register!</string>
+
+    <!-- Strings related to players' list -->
+    <string name="row_cv_players_list_logo">Team logo</string>
+    <string name="a_players_list_tv_filter">Filter:</string>
+    <string name="a_players_list_cb_m">M</string>
+    <string name="a_players_list_cb_g">G</string>
+    <string name="a_players_list_cb_f">F</string>
+    <string name="a_players_list_cb_d">D</string>
+    <string name="row_cv_players_list_photo">Player photo</string>
+
+    <!-- Strings related to home -->
+    <string name="a_home_a_logout_text">Are you sure you want to logout?</string>
+    <string name="a_home_a_logout_title">Logout</string>
+    <string name="a_home_a_logout_yes">Yes</string>
+    <string name="a_home_a_logout_no">No</string>
+    <string name="a_home_a_logout_done">Logged out</string>
+    <string name="a_home_iv_picture">Profile picture</string>
+    <string name="a_home_tv_welcome">Welcome back</string>
+    <string name="a_home_tv_name" />
+
+    <!-- Strings related to focus view -->
+    <string name="a_focus_view_t_data">Error, cannot load data</string>
+    <string name="a_focus_view_t_added">Added to your team!</string>
+    <string name="a_focus_view_t_removed">Removed from your team!</string>
+    <string name="a_focus_view_iv_picture">Player picture</string>
+    <string name="a_focus_view_tv_name">Name</string>
+    <string name="a_focus_view_tv_value_text">Value</string>
+    <string name="a_focus_view_tv_value_number" translatable="false">Value number</string>
+    <string name="a_focus_view_tv_statistics">Statistics</string>
+    <string name="a_focus_view_tv_description" translatable="false">Put here the statistics of the player</string>
+    <string name="a_focus_view_iv_logo">Team logo</string>
+    <string name="a_focus_view_tv_role">Role</string>
+    <string name="a_focus_view_t_server">Cannot get a value from the server</string>
+    <string name="a_focus_view_pb_message">Contacting the server to retrieve statistics…</string>
+
+    <!-- Strings related to auction -->
+    <string name="a_auction_n_reminder_text">Remember to set the date for the auction!</string>
+    <string name="a_auction_n_reminder_title">Auction reminder</string>
+    <string name="a_auction_tv_new_auction">Organize a new auction</string>
+    <string name="a_auction_btn_new_auction">Organize</string>
+    <string name="a_auction_tv_auctions">Incoming auctions</string>
+    <string name="a_auction_tv_live">Go to live</string>
+
+    <string name="t_not_yet_implemented">This functionality has not been implemented yet</string>
+    <string name="a_profile_a_cancel">Cancel</string>
+    <string name="a_profile_a_ok">OK</string>
+</resources>

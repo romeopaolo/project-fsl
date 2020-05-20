@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="87dp"
+    tools:layout_editor_absoluteY="695dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LiveAuctionActivity">
+
+        <Button
+            android:id="@+id/a_live_auction_btn_raise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="28dp"
+            android:text="Raise"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_live_auction_tv_offer_value" />
+
+        <TextView
+            android:id="@+id/a_live_auction_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="40dp"
+            android:text="Player's name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/a_live_auction_tv_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="40dp"
+            android:text="Role"
+            app:layout_constraintStart_toEndOf="@+id/a_live_auction_tv_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toEndOf="@+id/a_live_auction_tv_role"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/a_live_auction_tv_offer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="36dp"
+            android:text="Current offer:"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_live_auction_tv_name" />
+
+        <TextView
+            android:id="@+id/a_live_auction_tv_offer_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="36dp"
+            android:text="0"
+            app:layout_constraintStart_toEndOf="@+id/a_live_auction_tv_offer_text"
+            app:layout_constraintTop_toBottomOf="@+id/a_live_auction_tv_role" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="325dp"
+            android:layout_height="384dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintTop_toBottomOf="@+id/a_live_auction_btn_raise"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

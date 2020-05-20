@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ProfileActivity">
+
+        <ImageView
+            android:id="@+id/a_profile_iv_photo"
+            android:layout_width="166dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/default_profile"
+            android:contentDescription="@string/a_profile_iv_profile_picture" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a_profile_tv_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_profile_btn_update" />
+
+        <EditText
+            android:id="@+id/a_registration_et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/a_profile_et_insert_your_name"
+            android:ems="10"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_name"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/a_profile_tv_birthdate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_name" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a_profile_tv_phone_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_birthdate" />
+
+        <TextView
+            android:id="@+id/a_registration_tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a_profile_tv_email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_phone" />
+
+        <EditText
+            android:id="@+id/a_registration_et_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/a_profile_et_insert_your_email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_email"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/a_registration_et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/a_profile_et_phone"
+            android:inputType="phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_phone"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/a_registration_et_birthdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="@string/a_profile_et_birthdate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_tv_birthdate"
+            android:importantForAutofill="no"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/a_profile_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/a_profile_btn_save"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_registration_et_email" />
+
+        <Button
+            android:id="@+id/a_profile_btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/a_profile_btn_update_data"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/a_profile_iv_photo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

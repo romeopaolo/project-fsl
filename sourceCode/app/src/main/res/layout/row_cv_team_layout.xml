@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/a_team_cv_player"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/activity_vertical_margin"
+    app:cardElevation="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/a_team_rl_card_structure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/row_cv_team_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/row_cv_players_list_logo" />
+
+        <TextView
+            android:id="@+id/row_cv_team_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/row_cv_team_value"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/row_cv_team_logo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/row_cv_team_role"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/row_cv_team_value"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
